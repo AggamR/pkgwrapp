@@ -1,0 +1,13 @@
+PKG
+name: apt
+update: apt update && apt upgrade
+install: apt install
+remove: apt remove
+root: true
+
+PKG
+name: flatpak
+update: flatpak update
+install: flatpak install
+remove: flatpak uninstall
+root: false
